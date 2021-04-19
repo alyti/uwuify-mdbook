@@ -106,6 +106,10 @@ mod uwuify_lib {
 
                 let md = uwuify(chapter)?;
                 chapter.content = md;
+
+                if !chapter.sub_items.is_empty() {
+                    process(&mut chapter.sub_items)?;
+                }
             }
         }
 
