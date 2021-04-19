@@ -1,0 +1,12 @@
+[book]
+authors = ["Aleti"]
+language = "en"
+multilingual = false
+src = "src"
+title = "UwUify me pls"
+
+[preprocessor.uwuify]
+# The command can also be specified manually
+command = "cargo run"
+# Only run the `foo` preprocessor for the HTML and EPUB renderer
+renderer = ["html", "epub"]
