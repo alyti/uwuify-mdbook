@@ -1,5 +1,5 @@
 [package]
-name = "uwuify-mdbook-preprocessor"
+name = "uwuify-mdbook"
 version = "0.1.0"
 authors = ["Aleti <alticodes@gmail.com>"]
 edition = "2018"
